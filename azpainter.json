@@ -1,0 +1,330 @@
+
+{
+
+    "border": "normal",
+    "floating": "disable",
+    "layout": "splitv",
+    "percent": 0.138871150737732,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 82,
+               "width": 255,
+               "x": 2,
+               "y": 20
+            },
+            "name": "Canvas\\ control",
+            "percent": 0.102649006622517,
+            "swallows": [
+               {
+               "title": "^Canvas\\ control$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        },
+        {
+         //   splith split container with 1 children
+            "border": "normal",
+            "floating": "disable",
+            "layout": "splith",
+            "percent": 0.160475139283086,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "disable",
+                    "geometry": {
+                       "height": 140,
+                       "width": 255,
+                       "x": 2,
+                       "y": 124
+                    },
+                    "name": "Tool",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "title": "^Tool$",
+		               "id": "#\\ #\\ 0x1a00019"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 260,
+               "width": 255,
+               "x": 2,
+               "y": 286
+            },
+            "name": "Option",
+            "percent": 0.206923744206351,
+            "swallows": [
+               {
+               "title": "^Option$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        },
+        {
+         //   tabbed split container with 2 children
+            "border": "normal",
+            "floating": "disable",
+            "layout": "tabbed",
+            "percent": 0.199483940362114,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "disable",
+                    "geometry": {
+                       "height": 489,
+                       "width": 255,
+                       "x": 2,
+                       "y": 568
+                    },
+                    "name": "Color",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "title": "^Color$",
+		               "id": "#\\ 0x1a00019"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "floating": "disable",
+                    "geometry": {
+                       "height": 489,
+                       "width": 255,
+                       "x": 2,
+                       "y": 568
+                    },
+                    "name": "Color\\ wheel",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "title": "^Color\\ wheel$",
+		               "id": "#\\ 0x1a00019"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 260,
+               "width": 255,
+               "x": 2,
+               "y": 286
+            },
+            "name": "Color Palette",
+            "percent": 0.330468169525932,
+            "swallows": [
+               {
+               "title": "^Color\\ Palette$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+  //  tabbed split container with 2 children
+    "border": "normal",
+    "floating": "disable",
+    "layout": "tabbed",
+    "percent": 0.595511021200155,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 1037,
+               "width": 1124,
+               "x": 261,
+               "y": 20
+            },
+            "name": "untitled - AzPainter",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "title": "AzPainter$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 1037,
+               "width": 1916,
+               "x": 0,
+               "y": 0
+            },
+            "name": "fahrenheit",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Pcmanfm$",
+               "instance": "^pcmanfm$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+ //   tabbed split container with 2 children
+    "border": "normal",
+    "floating": "disable",
+    "layout": "tabbed",
+    "percent": 0.125566752335453,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 1037,
+               "width": 263,
+               "x": 1389,
+               "y": 20
+            },
+            "name": "Layer",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "title": "^Layer$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 949,
+               "width": 236,
+               "x": 256,
+               "y": 67
+            },
+            "name": "Filter list",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "title": "^Filter\\ list$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+  //  tabbed split container with 2 children
+    "border": "normal",
+    "floating": "disable",
+    "layout": "tabbed",
+    "percent": 0.14005107572666,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "disable",
+            "geometry": {
+               "height": 1037,
+               "width": 262,
+               "x": 1656,
+               "y": 20
+            },
+            "name": "Brush",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "title": "^Brush$",
+               "id": "#\\ 0x1a00019"
+               }
+            ],
+            "type": "con"
+        },
+        {
+      //      splith split container with 1 children
+            "border": "normal",
+            "floating": "disable",
+            "layout": "splith",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "disable",
+                    "layout": "splitv",
+                    "percent": 1,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "normal",
+                            "floating": "disable",
+                            "geometry": {
+                               "height": 413,
+                               "width": 754,
+                               "x": 281,
+                               "y": 45
+                            },
+                            "name": "Canvas view",
+                            "percent": 0.3,
+                            "swallows": [
+                               {
+                               "title": "^Canvas\\ view$",
+               				"id": "#\\ 0x1a00019"
+                               }
+                            ],
+                            "type": "con"
+                        },
+                        {
+                            "border": "normal",
+                            "floating": "disable",
+                            "geometry": {
+                               "height": 404,
+                               "width": 501,
+                               "x": 1415,
+                               "y": 627
+                            },
+                            "name": "Image viewer",
+                            "percent": 0.7,
+                            "swallows": [
+                               {
+                               "title": "^Image\\ viewer$",
+			               "id": "#\\ 0x1a00019"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
